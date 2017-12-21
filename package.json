@@ -1,6 +1,6 @@
 {
   "name": "sqlite-orm-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SQLite ORM library for javascript",
   "main": "index.js",
   "scripts": {
