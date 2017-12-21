@@ -17,5 +17,6 @@
     "url": "https://github.com/mhackiewicz/sqlite-orm-js.git"
   },
   "author": "Mateusz Hackiewicz",
-  "license": "ISC"
+  "license": "ISC",
+  "readme": "README.md"
 }
