@@ -1,6 +1,6 @@
 {
   "name": "sqlite-orm-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SQLite ORM library for javascript",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "promises",
     "javascript"
   ],
-  "repository" :{ 
-    "type" : "git",
-    "url" : "https://github.com/mhackiewicz/sqlite-orm-js.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhackiewicz/sqlite-orm-js.git"
   },
   "author": "Mateusz Hackiewicz",
   "license": "ISC"
