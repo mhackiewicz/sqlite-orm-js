@@ -12,6 +12,10 @@
     "promises",
     "javascript"
   ],
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/mhackiewicz/sqlite-orm-js.git"
+  },
   "author": "Mateusz Hackiewicz",
   "license": "ISC"
 }
