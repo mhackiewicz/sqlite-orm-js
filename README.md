@@ -6,6 +6,17 @@
 npm install sqlite-orm-js
 ```
 
+```javascript
+    import SQLite from  'sqlite-orm-js';
+```
+or
+```html
+    <script src="../node_modules/sqlite-orm-js/index.js"></script>
+```
+
+
+ 
+
 ## Methods
 * connect(name, version, description, size) - connection to local sqlite database
 
