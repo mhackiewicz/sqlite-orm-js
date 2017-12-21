@@ -1,10 +1,7 @@
 # sqlite-orm-js
-> SQLite ORM for javascript with promises
-
-## Description
 > This is simple, javascript library for doing sqlite transactions with promises.
 
-## Use
+## Uses
 ``` bash
 npm install sqlite-orm-js
 ```
