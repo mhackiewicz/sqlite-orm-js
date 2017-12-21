@@ -206,3 +206,7 @@ var SQLite = (function() {
 	}
 	
 }());
+
+if(typeof module !== 'undefined') {
+	module.exports = SQLite;
+}
