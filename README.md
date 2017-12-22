@@ -119,3 +119,17 @@ or
     });
 ```
 
+
+* query(queryString) - execute own query
+
+**Example**
+```javascript
+    SQLite.query("SELECT * FROM pets").then(function(result){
+        console.log("OK");
+        console.log(result);
+    }).catch(function(error){
+        console.log("ERROR");
+        console.log(error);
+    });
+```
+
