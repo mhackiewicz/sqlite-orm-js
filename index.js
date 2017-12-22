@@ -120,7 +120,19 @@ var SQLite = (function() {
 					statement = statement.slice(0,-4);
 				}				
 	  			tx.executeSql(statement, [] ,function(tx,result){
-					resolve();
+					resolve(result);
+	  			},function(tx,e){
+	  				reject(e);
+	  			});
+			});
+		});
+	}
+
+	var query = function(queryString){
+		return new Promise(function(resolve, reject){
+			DB.transaction(function (tx) {						
+	  			tx.executeSql(queryString, [] ,function(tx,result){
+					resolve(result);
 	  			},function(tx,e){
 	  				reject(e);
 	  			});
@@ -202,7 +214,8 @@ var SQLite = (function() {
 		edit: edit,
 		remove: remove,
 		find: find,
-		findAll: findAll
+		findAll: findAll,
+		query: query
 	}
 	
 }());
@@ -210,3 +223,5 @@ var SQLite = (function() {
 if(typeof module !== 'undefined') {
 	module.exports = SQLite;
 }
+
+ 
